@@ -8,7 +8,7 @@ class Application(ctk.CTk):
     def __init__(self):
         super().__init__()
         self.title("Cadastro de dados")
-        self.geometry("300x200")
+        self.geometry("300x400")
 
         self.date_label = ctk.CTkLabel(self, text="Data:")
         self.date_label.pack()
