@@ -9,7 +9,7 @@ class Application(ctk.CTk):
     def __init__(self):
         super().__init__()
         self.title("Cadastro de dados")
-        self.geometry("300x250")
+        self.geometry("400x350")
 
         self.date_label = ctk.CTkLabel(self, text="Data:")
         self.date_label.pack()
